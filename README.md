@@ -18,10 +18,10 @@ Start an inbound connection to server, such as with `nc`
 nc localhost 9999
 ```
 
-The line of input needs to be the client ID. For the example above it would be:
+The first line of input needs to be the client ID. For the example above it would be:
 
 ```
 one
 ```
 
-All subsequent inbound input lines are sent as messages from the server back to the client. The client will start a one second interval ticker to simulate bidirectional activity.
+All remaining inbound input lines are sent as messages from the server back to the client. The client will start a one-second interval ticker to simulate bidirectional activity.
